@@ -1,5 +1,5 @@
 pipeline{
-   agent{ lable 'linux' }
+   agent{ lable 'master' }
    stages {
        stage ('Hello from github' ){
           steps {
