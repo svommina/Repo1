@@ -1,5 +1,5 @@
 pipeline{
-   agent{ label 'any' }
+   agent{ label 'none' }
    stages {
        stage ('Hello from github' ){
           steps {
